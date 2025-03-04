@@ -1,0 +1,44 @@
+2025-03-04T19:12:23.205+05:30  INFO 23996 --- [main] com.logging.logging.LoggingApplication   : Starting LoggingApplication using Java 21.0.1 with PID 23996 (C:\Users\sures\Downloads\logging\target\classes started by Dell in C:\Users\sures\Downloads\logging)
+2025-03-04T19:12:23.207+05:30 DEBUG 23996 --- [main] com.logging.logging.LoggingApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-04T19:12:23.208+05:30  INFO 23996 --- [main] com.logging.logging.LoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-04T19:12:24.221+05:30  INFO 23996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-04T19:12:24.239+05:30  INFO 23996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-04T19:12:24.239+05:30  INFO 23996 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-04T19:12:24.288+05:30  INFO 23996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-04T19:12:24.288+05:30  INFO 23996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2025-03-04T19:12:24.480+05:30 DEBUG 23996 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-04T19:12:24.589+05:30 DEBUG 23996 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-04T19:12:24.634+05:30 DEBUG 23996 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-04T19:12:24.701+05:30 DEBUG 23996 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-04T19:12:24.828+05:30  INFO 23996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-04T19:12:24.837+05:30  INFO 23996 --- [main] com.logging.logging.LoggingApplication   : Started LoggingApplication in 2.114 seconds (process running for 2.543)
+2025-03-04T19:12:24.841+05:30  INFO 23996 --- [main] com.logging.logging.LoggingApplication   : Logging Application Started Successfully
+2025-03-04T19:12:33.911+05:30  INFO 23996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-04T19:12:33.912+05:30  INFO 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-04T19:12:33.912+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-04T19:12:33.912+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-04T19:12:33.913+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-04T19:12:33.914+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2edf2a7e
+2025-03-04T19:12:33.915+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@73a2c60d
+2025-03-04T19:12:33.916+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-04T19:12:33.916+05:30  INFO 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-03-04T19:12:33.929+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/test-logs", parameters={}
+2025-03-04T19:12:33.943+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logging.logging.controller.LogController#testLogs()
+2025-03-04T19:12:33.957+05:30 TRACE 23996 --- [http-nio-8080-exec-1] c.l.logging.controller.LogController     : A TRACE Message
+2025-03-04T19:12:33.957+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] c.l.logging.controller.LogController     : A DEBUG Message
+2025-03-04T19:12:33.958+05:30  INFO 23996 --- [http-nio-8080-exec-1] c.l.logging.controller.LogController     : An INFO Message
+2025-03-04T19:12:33.958+05:30  WARN 23996 --- [http-nio-8080-exec-1] c.l.logging.controller.LogController     : A WARN Message
+2025-03-04T19:12:33.958+05:30 ERROR 23996 --- [http-nio-8080-exec-1] c.l.logging.controller.LogController     : An ERROR Message
+2025-03-04T19:12:33.972+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-03-04T19:12:33.974+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Logs generated. Check console."]
+2025-03-04T19:12:33.981+05:30 DEBUG 23996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-04T19:12:34.130+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/test-logs", parameters={}
+2025-03-04T19:12:34.130+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logging.logging.controller.LogController#testLogs()
+2025-03-04T19:12:34.131+05:30 TRACE 23996 --- [http-nio-8080-exec-2] c.l.logging.controller.LogController     : A TRACE Message
+2025-03-04T19:12:34.131+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] c.l.logging.controller.LogController     : A DEBUG Message
+2025-03-04T19:12:34.131+05:30  INFO 23996 --- [http-nio-8080-exec-2] c.l.logging.controller.LogController     : An INFO Message
+2025-03-04T19:12:34.132+05:30  WARN 23996 --- [http-nio-8080-exec-2] c.l.logging.controller.LogController     : A WARN Message
+2025-03-04T19:12:34.132+05:30 ERROR 23996 --- [http-nio-8080-exec-2] c.l.logging.controller.LogController     : An ERROR Message
+2025-03-04T19:12:34.133+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-03-04T19:12:34.133+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Logs generated. Check console."]
+2025-03-04T19:12:34.134+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
