@@ -42,3 +42,130 @@
 2025-03-04T19:12:34.133+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
 2025-03-04T19:12:34.133+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Logs generated. Check console."]
 2025-03-04T19:12:34.134+05:30 DEBUG 23996 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-05 00:25:16.947 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Starting LoggingApplication using Java 21.0.1 with PID 15780 (C:\Users\sures\Downloads\logging\target\classes started by Dell in C:\Users\sures\Downloads\logging)
+2025-03-05 00:25:16.950 [myserver] [USER_IS_UNDEFINED] [main] DEBUG c.logging.logging.LoggingApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-05 00:25:16.952 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 00:25:18.841 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-05 00:25:18.864 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 00:25:18.865 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 00:25:18.958 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 00:25:18.960 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1887 ms
+2025-03-05 00:25:19.307 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2025-03-05 00:25:19.420 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-05 00:25:19.480 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-05 00:25:19.544 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-05 00:25:19.698 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-05 00:25:19.721 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Started LoggingApplication in 3.609 seconds (process running for 4.177)
+2025-03-05 00:25:19.727 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Logging Application Started Successfully
+2025-03-05 00:26:24.226 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Starting LoggingApplication using Java 21.0.1 with PID 26716 (C:\Users\sures\Downloads\logging\target\classes started by Dell in C:\Users\sures\Downloads\logging)
+2025-03-05 00:26:24.229 [myserver] [USER_IS_UNDEFINED] [main] DEBUG c.logging.logging.LoggingApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-05 00:26:24.230 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 00:26:25.825 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-05 00:26:25.849 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 00:26:25.850 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 00:26:25.917 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 00:26:25.918 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1590 ms
+2025-03-05 00:26:26.200 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2025-03-05 00:26:26.325 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-05 00:26:26.370 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-05 00:26:26.423 [myserver] [USER_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-05 00:26:26.570 [myserver] [USER_IS_UNDEFINED] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-05 00:26:26.584 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Started LoggingApplication in 3.282 seconds (process running for 3.867)
+2025-03-05 00:26:26.592 [myserver] [USER_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Logging Application Started Successfully
+2025-03-05 00:28:16.442 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - Starting LoggingApplication using Java 21.0.1 with PID 26940 (C:\Users\sures\Downloads\logging\target\classes started by Dell in C:\Users\sures\Downloads\logging)
+2025-03-05 00:28:16.444 [myserver] [unknown] [main] DEBUG c.logging.logging.LoggingApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-05 00:28:16.446 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 00:28:18.317 [myserver] [unknown] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-05 00:28:18.338 [myserver] [unknown] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:28:18.344 [myserver] [unknown] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 00:28:18.346 [myserver] [unknown] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 00:28:18.433 [myserver] [unknown] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 00:28:18.436 [myserver] [unknown] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1865 ms
+2025-03-05 00:28:18.715 [myserver] [unknown] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2025-03-05 00:28:18.876 [myserver] [unknown] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-05 00:28:18.923 [myserver] [unknown] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-05 00:28:19.001 [myserver] [unknown] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-05 00:28:19.120 [myserver] [unknown] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:28:19.180 [myserver] [unknown] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-05 00:28:19.208 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - Started LoggingApplication in 3.617 seconds (process running for 4.115)
+2025-03-05 00:28:19.222 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - Logging Application Started Successfully
+2025-03-05 00:28:57.273 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Starting LoggingApplication using Java 21.0.1 with PID 24928 (C:\Users\sures\Downloads\logging\target\classes started by Dell in C:\Users\sures\Downloads\logging)
+2025-03-05 00:28:57.275 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] DEBUG c.logging.logging.LoggingApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-05 00:28:57.277 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 00:28:58.916 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-05 00:28:58.940 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:28:58.946 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 00:28:58.948 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 00:28:59.031 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 00:28:59.034 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1666 ms
+2025-03-05 00:28:59.322 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2025-03-05 00:28:59.460 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-05 00:28:59.516 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-05 00:28:59.584 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-05 00:28:59.679 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:28:59.729 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-05 00:28:59.745 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Started LoggingApplication in 3.56 seconds (process running for 4.202)
+2025-03-05 00:28:59.752 [myserver] [USER:USERNAME:system_IS_UNDEFINED_IS_UNDEFINED] [main] INFO  c.logging.logging.LoggingApplication - Logging Application Started Successfully
+2025-03-05 00:29:08.952 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - Starting LoggingApplication using Java 21.0.1 with PID 9420 (C:\Users\sures\Downloads\logging\target\classes started by Dell in C:\Users\sures\Downloads\logging)
+2025-03-05 00:29:08.956 [myserver] [unknown] [main] DEBUG c.logging.logging.LoggingApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-05 00:29:08.959 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 00:29:10.863 [myserver] [unknown] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-05 00:29:10.887 [myserver] [unknown] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:29:10.893 [myserver] [unknown] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 00:29:10.894 [myserver] [unknown] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 00:29:10.988 [myserver] [unknown] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 00:29:10.994 [myserver] [unknown] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1945 ms
+2025-03-05 00:29:11.299 [myserver] [unknown] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2025-03-05 00:29:11.412 [myserver] [unknown] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-05 00:29:11.456 [myserver] [unknown] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-05 00:29:11.531 [myserver] [unknown] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-05 00:29:11.603 [myserver] [unknown] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:29:11.645 [myserver] [unknown] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-05 00:29:11.666 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - Started LoggingApplication in 3.814 seconds (process running for 4.505)
+2025-03-05 00:29:11.673 [myserver] [unknown] [main] INFO  c.logging.logging.LoggingApplication - Logging Application Started Successfully
+2025-03-05 00:30:29.753 [myserver] [Dell] [main] INFO  c.logging.logging.LoggingApplication - Starting LoggingApplication using Java 21.0.1 with PID 1912 (C:\Users\sures\Downloads\logging\target\classes started by Dell in C:\Users\sures\Downloads\logging)
+2025-03-05 00:30:29.756 [myserver] [Dell] [main] DEBUG c.logging.logging.LoggingApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-05 00:30:29.757 [myserver] [Dell] [main] INFO  c.logging.logging.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 00:30:31.305 [myserver] [Dell] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-05 00:30:31.324 [myserver] [Dell] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:30:31.327 [myserver] [Dell] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 00:30:31.328 [myserver] [Dell] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 00:30:31.398 [myserver] [Dell] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 00:30:31.400 [myserver] [Dell] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1548 ms
+2025-03-05 00:30:31.677 [myserver] [Dell] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2025-03-05 00:30:31.804 [myserver] [Dell] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-05 00:30:31.851 [myserver] [Dell] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-05 00:30:31.913 [myserver] [Dell] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-05 00:30:32.011 [myserver] [Dell] [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-05 00:30:32.070 [myserver] [Dell] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-05 00:30:32.094 [myserver] [Dell] [main] INFO  c.logging.logging.LoggingApplication - Started LoggingApplication in 3.255 seconds (process running for 3.783)
+2025-03-05 00:30:32.100 [myserver] [Dell] [main] INFO  c.logging.logging.LoggingApplication - Logging Application Started Successfully
+2025-03-05 00:31:24.527 [myserver] [Dell] [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-05 00:31:24.528 [myserver] [Dell] [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-05 00:31:24.528 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-03-05 00:31:24.528 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-03-05 00:31:24.529 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-03-05 00:31:24.530 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@70975fc9
+2025-03-05 00:31:24.532 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@61b8428a
+2025-03-05 00:31:24.533 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-05 00:31:24.534 [myserver] [Dell] [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2025-03-05 00:31:24.563 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/test-logs", parameters={}
+2025-03-05 00:31:24.591 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.logging.logging.controller.LogController#testLogs()
+2025-03-05 00:31:24.615 [myserver] [Dell] [http-nio-8080-exec-1] TRACE c.l.logging.controller.LogController - A TRACE Message from server: myserver
+2025-03-05 00:31:24.617 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG c.l.logging.controller.LogController - A DEBUG Message from server: myserver
+2025-03-05 00:31:24.618 [myserver] [Dell] [http-nio-8080-exec-1] INFO  c.l.logging.controller.LogController - An INFO Message from server: myserver
+2025-03-05 00:31:24.618 [myserver] [Dell] [http-nio-8080-exec-1] WARN  c.l.logging.controller.LogController - A WARN Message from server: myserver
+2025-03-05 00:31:24.619 [myserver] [Dell] [http-nio-8080-exec-1] ERROR c.l.logging.controller.LogController - An ERROR Message from server: myserver
+2025-03-05 00:31:24.651 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-03-05 00:31:24.653 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Logs generated. Check console and log file."]
+2025-03-05 00:31:24.666 [myserver] [Dell] [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-03-05 00:31:25.355 [myserver] [Dell] [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/test-logs", parameters={}
+2025-03-05 00:31:25.357 [myserver] [Dell] [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.logging.logging.controller.LogController#testLogs()
+2025-03-05 00:31:25.357 [myserver] [Dell] [http-nio-8080-exec-2] TRACE c.l.logging.controller.LogController - A TRACE Message from server: myserver
+2025-03-05 00:31:25.358 [myserver] [Dell] [http-nio-8080-exec-2] DEBUG c.l.logging.controller.LogController - A DEBUG Message from server: myserver
+2025-03-05 00:31:25.358 [myserver] [Dell] [http-nio-8080-exec-2] INFO  c.l.logging.controller.LogController - An INFO Message from server: myserver
+2025-03-05 00:31:25.358 [myserver] [Dell] [http-nio-8080-exec-2] WARN  c.l.logging.controller.LogController - A WARN Message from server: myserver
+2025-03-05 00:31:25.359 [myserver] [Dell] [http-nio-8080-exec-2] ERROR c.l.logging.controller.LogController - An ERROR Message from server: myserver
+2025-03-05 00:31:25.360 [myserver] [Dell] [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-03-05 00:31:25.361 [myserver] [Dell] [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Logs generated. Check console and log file."]
+2025-03-05 00:31:25.363 [myserver] [Dell] [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK

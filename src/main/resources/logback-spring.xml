@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <springProperty scope="context" name="serverName" source="server.name"/>
+    <springProperty scope="context" name="appName" source="spring.application.name"/>
+    <springProperty scope="context" name="username" source="app.username"/>
+    
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS} [${serverName}] [${username}] [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/application.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS} [${serverName}] [${username}] [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_PATH}/archived/application-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Log levels for different packages -->
+    <root level="info">
+        <appender-ref ref="Console"/>
+        <appender-ref ref="RollingFile"/>
+    </root>
+
+    <logger name="com.logging.logging" level="TRACE"/>
+    <logger name="org.springframework.web" level="DEBUG"/>
+    <logger name="com.logging.logging.security" level="WARN"/>
+    <logger name="com.logging.logging.critical" level="ERROR"/>
+</configuration>
