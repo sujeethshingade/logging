@@ -15,6 +15,9 @@ const nextConfig: NextConfig = {
       hmrRefreshes: true,
     },
   },
-};
+  experimental: { 
+    instrumentationHook: true 
+  },
+} as NextConfig;
 
 export default nextConfig;

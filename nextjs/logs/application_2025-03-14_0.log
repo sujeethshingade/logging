@@ -1,3 +1,7 @@
 [2025-03-14T03:28:24.689Z] [INFO ] [Sujeeth-PC] [User:demo-user] hi {"timestamp":"2025-03-14T03:28:24.319Z"}
 [2025-03-14T03:28:34.329Z] [FATAL] [Sujeeth-PC] [User:demo-user] big problem {"timestamp":"2025-03-14T03:28:34.311Z"}
 [2025-03-14T03:28:46.659Z] [FATAL] [Sujeeth-PC] [User:user1] fatal!! {"timestamp":"2025-03-14T03:28:46.645Z"}
+[2025-03-14T03:53:00.771Z] [WARN ] [Sujeeth-PC] [User:user100] warning given {"timestamp":"2025-03-14T03:52:58.692Z"}
+[2025-03-14T03:56:46.309Z] [WARN ] [Sujeeth-PC] [User:demo-user] 123 {"timestamp":"2025-03-14T03:56:45.427Z"}
+[2025-03-14T03:59:05.419Z] [ERROR] [Sujeeth-PC] [User:demo-user12] 124 {"timestamp":"2025-03-14T03:59:05.394Z"}
+[2025-03-14T04:01:21.207Z] [INFO ] [Sujeeth-PC] [User:demo-user] qe {"timestamp":"2025-03-14T04:01:21.193Z"}
