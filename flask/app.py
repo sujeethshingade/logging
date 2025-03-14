@@ -1,6 +1,6 @@
 from flask import Flask
 from logging.config import dictConfig
-from config.logging_config import LOGGING_CONFIG
+from logging_config import LOGGING_CONFIG
 
 app = Flask(__name__)
 dictConfig(LOGGING_CONFIG)

@@ -1,0 +1,235 @@
+2025-03-13 20:17:38 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:17:38 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:17:38 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-13 20:17:39 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-13 20:17:39 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-13 20:17:47 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:17:47 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:17:47 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:17:47 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:17:47 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:17:47 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:17:47 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:17:47] "GET / HTTP/1.1" 200 -
+2025-03-13 20:18:42 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:18:42 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:18:42 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-13 20:18:43 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-13 20:18:43 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-13 20:18:46 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:18:46 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:18:46 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:18:46 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:18:46 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:18:46 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:18:46 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:18:46] "GET / HTTP/1.1" 200 -
+2025-03-13 20:46:49 - Server: Sujeeth-PC - User: Dell - WARNING - Header format invalid! Header values in environment variables must be URL encoded per the OpenTelemetry Protocol Exporter specification or a comma separated list of name=value occurrences: "Authorization=Bearer <eyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNAeyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNeyJhbGciOiXXXXXXXXXXXXXX>"
+2025-03-13 20:46:49 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:46:49 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:46:55 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:46:55 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:46:55 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:46:55 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:46:55 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:46:55 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:46:55 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:46:55] "GET / HTTP/1.1" 200 -
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:46:59] "GET / HTTP/1.1" 200 -
+2025-03-13 20:46:59 - Server: Sujeeth-PC - User: Dell - DEBUG - Starting new HTTPS connection (1): app.last9.io:443
+2025-03-13 20:47:00 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 20:47:00 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-13 20:50:12 - Server: Sujeeth-PC - User: Dell - WARNING - Header format invalid! Header values in environment variables must be URL encoded per the OpenTelemetry Protocol Exporter specification or a comma separated list of name=value occurrences: "Authorization=Bearer <eyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNAeyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNeyJhbGciOiXXXXXXXXXXXXXX>"
+2025-03-13 20:50:12 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:50:12 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:50:21 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:50:21 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:50:21 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:50:21 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:50:21 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:50:21 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:50:21 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:50:21] "GET / HTTP/1.1" 200 -
+2025-03-13 20:50:22 - Server: Sujeeth-PC - User: Dell - DEBUG - Starting new HTTPS connection (1): app.last9.io:443
+2025-03-13 20:50:22 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 20:50:22 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-13 20:52:25 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:52:25 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:52:25 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:52:25 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:52:25 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:52:25 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:52:25 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:52:25] "GET / HTTP/1.1" 200 -
+2025-03-13 20:52:27 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 20:52:27 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-13 20:52:32 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:52:32 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:52:32 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:52:32 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:52:32 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:52:32 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:52:32 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:52:32] "GET / HTTP/1.1" 200 -
+2025-03-13 20:52:37 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 20:52:37 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-13 20:54:01 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:54:01 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:54:01 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-13 20:54:01 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-13 20:54:01 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-13 20:54:04 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:54:04 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:54:04 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:54:04 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:54:04 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:54:04 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:54:04 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:54:04] "GET / HTTP/1.1" 200 -
+2025-03-13 20:54:25 - Server: Sujeeth-PC - User: Dell - WARNING - Header format invalid! Header values in environment variables must be URL encoded per the OpenTelemetry Protocol Exporter specification or a comma separated list of name=value occurrences: "Authorization=Bearer <eyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNAeyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNeyJhbGciOiXXXXXXXXXXXXXX>"
+2025-03-13 20:54:25 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:54:25 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:54:31 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:54:31 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:54:31 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:54:31 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:54:31 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:54:31 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:54:31 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:54:31] "GET / HTTP/1.1" 200 -
+2025-03-13 20:54:35 - Server: Sujeeth-PC - User: Dell - DEBUG - Starting new HTTPS connection (1): app.last9.io:443
+2025-03-13 20:54:36 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 20:54:36 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-13 20:55:52 - Server: Sujeeth-PC - User: Dell - WARNING - Header format invalid! Header values in environment variables must be URL encoded per the OpenTelemetry Protocol Exporter specification or a comma separated list of name=value occurrences: "Authorization=<eyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNAeyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNeyJhbGciOiXXXXXXXXXXXXXX>"
+2025-03-13 20:55:52 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:55:52 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:55:57] "GET / HTTP/1.1" 200 -
+2025-03-13 20:55:57 - Server: Sujeeth-PC - User: Dell - DEBUG - Starting new HTTPS connection (1): app.last9.io:443
+2025-03-13 20:55:58 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 20:55:58 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-13 20:56:57 - Server: Sujeeth-PC - User: Dell - WARNING - Header format invalid! Header values in environment variables must be URL encoded per the OpenTelemetry Protocol Exporter specification or a comma separated list of name=value occurrences: "Authorization=eyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNAeyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNeyJhbGciOiXXXXXXXXXXXXXX"
+2025-03-13 20:56:57 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 20:56:57 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 20:57:01 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 20:57:01 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 20:57:01 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 20:57:01 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 20:57:01 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 20:57:01 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 20:57:01 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 20:57:01] "GET / HTTP/1.1" 200 -
+2025-03-13 20:57:02 - Server: Sujeeth-PC - User: Dell - DEBUG - Starting new HTTPS connection (1): app.last9.io:443
+2025-03-13 20:57:02 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 20:57:02 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-13 21:13:13 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 21:13:13 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 21:13:26 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 21:13:26 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 21:13:26 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 21:13:26 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 21:13:26 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 21:13:26 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 21:13:26 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 21:13:26] "GET / HTTP/1.1" 200 -
+2025-03-13 21:13:28 - Server: Sujeeth-PC - User: Dell - ERROR - Exception while exporting Span batch.
+Traceback (most recent call last):
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 360, in _export_batch
+    self.span_exporter.export(self.spans_list[:idx])  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 189, in export
+    return self._export_serialized_spans(serialized_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 159, in _export_serialized_spans
+    resp = self._export(serialized_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 133, in _export
+    return self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'YOUR_LAST9_ENDPOINT': No scheme supplied. Perhaps you meant https://YOUR_LAST9_ENDPOINT?
+2025-03-13 21:15:19 - Server: Sujeeth-PC - User: Dell - WARNING - Header format invalid! Header values in environment variables must be URL encoded per the OpenTelemetry Protocol Exporter specification or a comma separated list of name=value occurrences: "Authorization=eyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNAeyJhbGciOiXXXXXXXXXXXXXX.eyJleHXXXXXXXXX.XXXXXXXXXXOwuvUNeyJhbGciOiXXXXXXXXXXXXXX"
+2025-03-13 21:15:19 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 21:15:19 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 21:15:23 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 21:15:23 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 21:15:23 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 21:15:23 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 21:15:23 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 21:15:23 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 21:15:23 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 21:15:23] "GET / HTTP/1.1" 200 -
+2025-03-13 21:15:24 - Server: Sujeeth-PC - User: Dell - ERROR - Exception while exporting Span batch.
+Traceback (most recent call last):
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 360, in _export_batch
+    self.span_exporter.export(self.spans_list[:idx])  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 189, in export
+    return self._export_serialized_spans(serialized_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 159, in _export_serialized_spans
+    resp = self._export(serialized_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 133, in _export
+    return self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 697, in send
+    adapter = self.get_adapter(url=request.url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sures\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 794, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for '"https://app.last9.io/api/v4/organizations/gmail-rockmiop"/v1/traces'
+2025-03-13 21:21:36 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 21:21:36 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [13/Mar/2025 21:21:51] "GET / HTTP/1.1" 200 -
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - DEBUG - Starting new HTTPS connection (1): app.last9.io:443
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
+2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
