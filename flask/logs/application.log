@@ -233,3 +233,85 @@ NoneType: None
 2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - DEBUG - Starting new HTTPS connection (1): app.last9.io:443
 2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - DEBUG - https://app.last9.io:443 "POST /api/v4/organizations/gmail-rockmiop/v1/traces HTTP/1.1" 401 87
 2025-03-13 21:21:51 - Server: Sujeeth-PC - User: Dell - ERROR - Failed to export batch code: 401, reason: {"type": "error", "message": "Could not verify Authorization token. Please try again."}
+2025-03-15 18:12:42 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 18:12:42 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 18:12:42 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 18:12:43 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-15 18:12:43 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-15 18:12:55 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-15 18:12:55 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-15 18:12:55 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-15 18:12:55 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-15 18:12:55 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-15 18:12:55 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-15 18:12:55 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:12:55] "GET / HTTP/1.1" 200 -
+2025-03-15 18:45:57 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.149:5000
+2025-03-15 18:45:57 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 18:45:57 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 18:45:57 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-15 18:45:57 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-15 18:46:00 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-15 18:46:00 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-15 18:46:00 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-15 18:46:00 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-15 18:46:00 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-15 18:46:00 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-15 18:46:00 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:46:00] "GET / HTTP/1.1" 200 -
+2025-03-15 18:46:06 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-15 18:46:06 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-15 18:46:06 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-15 18:46:06 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-15 18:46:06 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-15 18:46:06 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-15 18:46:06 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:46:06] "GET / HTTP/1.1" 200 -
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.149:5000
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-15 18:47:12 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:47:12] "GET / HTTP/1.1" 200 -
+2025-03-15 18:47:15 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-15 18:47:15 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-15 18:47:15 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-15 18:47:15 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-15 18:47:15 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-15 18:47:15 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-15 18:47:15 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:47:15] "GET / HTTP/1.1" 200 -
+2025-03-15 18:47:18 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:47:18] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2025-03-15 18:47:19 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:47:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 18:49:35 - Server: Sujeeth-PC - User: Dell - INFO -  * Detected change in 'C:\\Users\\sures\\Documents\\Repositories\\logging\\flask\\app.py', reloading
+2025-03-15 18:49:35 - Server: Sujeeth-PC - User: Dell - INFO -  * Detected change in 'C:\\Users\\sures\\Documents\\Repositories\\logging\\flask\\app.py', reloading
+2025-03-15 18:49:35 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 18:49:36 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-15 18:49:36 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-15 18:49:39 - Server: Sujeeth-PC - User: Dell - INFO -  * Detected change in 'C:\\Users\\sures\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py', reloading
+2025-03-15 18:49:39 - Server: Sujeeth-PC - User: Dell - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-15 18:49:39 - Server: Sujeeth-PC - User: Dell - WARNING -  * Debugger is active!
+2025-03-15 18:49:39 - Server: Sujeeth-PC - User: Dell - INFO -  * Debugger PIN: 101-227-644
+2025-03-15 18:49:43 - Server: Sujeeth-PC - User: Dell - DEBUG - Debug message
+2025-03-15 18:49:43 - Server: Sujeeth-PC - User: Dell - INFO - Info message
+2025-03-15 18:49:43 - Server: Sujeeth-PC - User: Dell - WARNING - Warning message
+2025-03-15 18:49:43 - Server: Sujeeth-PC - User: Dell - ERROR - Error message
+2025-03-15 18:49:43 - Server: Sujeeth-PC - User: Dell - CRITICAL - Critical message
+2025-03-15 18:49:43 - Server: Sujeeth-PC - User: Dell - ERROR - Exception message
+NoneType: None
+2025-03-15 18:49:43 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:49:43] "GET / HTTP/1.1" 200 -
+2025-03-15 18:49:45 - Server: Sujeeth-PC - User: Dell - INFO - 127.0.0.1 - - [15/Mar/2025 18:49:45] "[33mGET /metrics HTTP/1.1[0m" 404 -
