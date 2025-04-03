@@ -55,13 +55,13 @@ public class LogController {
 
         switch (size.toLowerCase()) {
             case "1mb":
-                logCount = 2000; 
+                logCount = 2000;
                 break;
             case "10mb":
-                logCount = 20000; 
+                logCount = 20000;
                 break;
             case "100mb":
-                logCount = 100000; 
+                logCount = 100000;
                 break;
             default:
                 return "Invalid size. Use '1mb', '10mb', or '100mb'";
@@ -82,13 +82,11 @@ public class LogController {
     private String generateRandomJsonLog() throws Exception {
         Map<String, Object> logEntry = new HashMap<>();
 
-        // Generate random timestamp within the last week
         LocalDateTime now = LocalDateTime.now();
-        LocalDateTime randomTime = now.minusSeconds(random.nextInt(604800));
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS");
 
-        // Populate with random data
-        logEntry.put("timestamp", randomTime.format(formatter));
+        // Populate with random data but use current timestamp
+        logEntry.put("timestamp", now.format(formatter));
         logEntry.put("server_name", SERVER_NAMES[random.nextInt(SERVER_NAMES.length)]);
         logEntry.put("username", USERNAMES[random.nextInt(USERNAMES.length)]);
         logEntry.put("log_level", LOG_LEVELS[random.nextInt(LOG_LEVELS.length)]);
